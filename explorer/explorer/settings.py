@@ -92,5 +92,5 @@ TEMPLATE_DIRS = [os.path.join(PROJECT_ROOT, "templates")]
 
 try:
     from settings_local import *
-except Exception, inst:
-    print inst
+except Exception as inst:
+    print(inst)
